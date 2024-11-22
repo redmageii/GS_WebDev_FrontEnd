@@ -6,4 +6,18 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image:radial-gradient(farthest-corner at 0px 0px,#0B135D 0%,#040720 30%);
+}
+
+.wrapper, .login-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height:1080px;
+}
+.wrapper {
+    width:100vw;
+    height:100vh;
 }
