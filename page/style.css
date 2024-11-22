@@ -54,6 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    text-decoration: none;
 }
 
 .right a:hover{
@@ -62,3 +63,7 @@ body {
     text-underline-offset: 5px;
     text-decoration-thickness: 2px;
     }
+
+span {
+    color:#00FFA0;
+}
