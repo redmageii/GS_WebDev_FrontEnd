@@ -273,21 +273,32 @@ hr {
     justify-content: center;
     align-items: center;
     gap:10px;
+}
+.benefit-section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:6vw;
+}
+.benefit-section >div > div{
+    height: auto;
+    width: 200px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align-last:center;
     }
-    .benefit-section > div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap:6vw;
-    }
-    .benefit-section >div > div{
-        height: auto;
-        width: 200px;
-        font-size: 16px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align-last:center;
-        }
+.benefit-title strong{
+    font-weight: 600;
+}
+
+#benefit-text div{
+    height:150px;
+    align-items: start;
+}
+.benefit-img img{
+    height:100px;
+}
