@@ -131,3 +131,15 @@ span {
     height:auto;
     top:10px;
 }
+.blend-curves {
+    position: absolute;
+    height: 95%;
+    top:550px;
+    left:78vw;
+}
+.blend-elipses {
+    position: absolute;
+    height: 43%;
+    top:600px;
+    left:3vw;
+}
