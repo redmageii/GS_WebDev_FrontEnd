@@ -6,7 +6,7 @@ function userLogin() {
 
     if (username==='admin' && password==='admin') {
         errorText.textContent='';
-        window.location.href='/page';
+        window.location.href='page';
     }
     else {
         if (username && password) {
