@@ -67,3 +67,49 @@ body {
 span {
     color:#00FFA0;
 }
+
+.landing-text p{
+    font-size: 3.7em;
+    color:white;
+    font-weight: 200;
+    position: relative;
+    white-space: nowrap;
+}
+.landing-section {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.landing-intro {
+    display:flex;
+    flex-direction: column;
+}
+.landing-text .landing-intro .salvando{
+    top:20px;
+    position:relative;
+}
+
+.landing-section .landing-image {
+    margin-left:10vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.landing-section .landing-subtext p {
+    font-size: 16px;
+    white-space: normal;
+}
+.landing-section .landing-subtext {
+    width:700px;
+}
+.landing-image img {
+    height:350px;
+    position: relative;
+}
