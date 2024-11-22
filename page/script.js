@@ -16,4 +16,26 @@ if ((height && weight && dist) && (height>0 && weight>0 && dist>0)){
 else {
     alert('Preencha os campos com valores válidos para realizar a simulação.')
 }
+
+}
+
+function sendMessage() {
+    const nameForm=document.querySelector('#contact-name').value
+    const phoneForm=document.querySelector('#contact-phone').value
+    const emailForm=document.querySelector('#contact-email').value
+    const subjectForm=document.querySelector('#contact-subject').value
+    const messageForm=document.querySelector('#contact-message').value
+
+    if (nameForm &&emailForm && subjectForm && messageForm) {
+    alert(`Mensagem enviada com sucesso. Retornaremos o mais breve possível.
+        Nome: ${nameForm} 
+        Telefone/Celular: ${phoneForm} 
+        E-mail: ${emailForm} 
+        Assunto: ${subjectForm} 
+        Mensagem: ${messageForm}`)
+    }
+    else {
+        alert('Preencha os campos corretamente.')
+    }
+
 }
