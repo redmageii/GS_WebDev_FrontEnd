@@ -190,3 +190,115 @@ p.about.text{
     text-align: justify;
     text-align-last:center;
 }
+.about-second {
+    color: white;
+    font-size: 2.9em;
+    font-weight: 200;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    text-align: justify;
+    z-index:1;
+}
+.about-second-part {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+}
+.second-text p{
+    font-size: 18px;
+    width:520px;
+}
+.second-text{
+    width:550px;
+}
+hr {
+    border-left: 0.1px solid #00FFA0;
+    height:400px;
+}
+
+.model, .model img{
+    height:auto;
+    width:550px;
+}
+
+.impact-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
+    white-space: nowrap;
+}
+.impact-subsection {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+}
+.impact-img, .impact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.impact-img {
+    height:auto;
+    width:560px;
+}
+.impact-text{
+    width:560px;
+    height:auto;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    white-space: normal;
+    text-align: justify;
+}
+.impact-text p{
+    width:500px;
+    white-space: normal;
+    text-align: justify;
+    text-align-last:right
+}
+.benefit-section {
+    height:400px;
+    width:100vw;
+    background: radial-gradient(farthest-corner at 0 0, #00FFA0 -400%,#040720 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.benefit-section > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:6vw;
+}
+.benefit-section >div > div{
+    height: auto;
+    width: 200px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align-last:center;
+    }
+.benefit-title strong{
+    font-weight: 600;
+}
+
+#benefit-text div{
+    height:150px;
+    align-items: start;
+}
+.benefit-img img{
+    height:100px;
+}
