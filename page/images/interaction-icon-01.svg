@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.83 102.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-7);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient-3);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-21.77" cy="-22.51" fx="-21.77" fy="-22.51" r="259.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ffa0"/>
+      <stop offset="1" stop-color="#050825"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-21.77" fx="-21.77" r="259.02" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="-21.77" cy="-22.51" fx="-21.77" fy="-22.51" r="259.02" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="-21.77" fx="-21.77" r="259.02" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="-21.77" fx="-21.77" r="259.02" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="-21.77" cy="-22.51" fx="-21.77" fy="-22.51" r="259.02" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-7" cx="-21.77" fx="-21.77" r="259.02" xlink:href="#radial-gradient"/>
+  </defs>
+  <path class="cls-5" d="m50.71,73.89c-3.08,3.1-5.98,6-8.87,8.9-.49.49-.97,1.01-1.49,1.47-1.75,1.56-4.19,1.53-5.8-.05-1.62-1.6-1.71-4.19-.07-5.89,2.27-2.36,4.62-4.65,6.93-6.96,1.42-1.42,2.88-2.8,4.24-4.28.42-.46.74-1.19.75-1.8.08-3.45,0-6.9.07-10.35.04-2.12,1.55-3.68,3.64-3.99,1.8-.26,3.72.84,4.37,2.63.25.68.32,1.45.33,2.18.03,3.19-.02,6.38.05,9.56.01.61.33,1.36.75,1.8,3.79,3.87,7.62,7.69,11.46,11.5,1.29,1.28,1.85,2.75,1.31,4.51-.91,3.03-4.63,3.95-6.96,1.69-3.04-2.95-6.01-5.97-8.99-8.98-.58-.58-1.1-1.23-1.72-1.94Z"/>
+  <path class="cls-6" d="m100.81,102.16h-27.77c-1.91-11.98,6.26-18.65,14.62-18.27,6.98.32,12.9,6.23,13.14,13.2.06,1.65,0,3.3,0,5.07Z"/>
+  <path class="cls-7" d="m28.17,102.16H.29c-1.35-8.26,2.05-15.67,10.51-17.88,7.67-2,15.48,3.05,16.96,10.96.41,2.2.28,4.5.41,6.92Z"/>
+  <path class="cls-3" d="m64.89,42.95h-27.89c-.54-5.73.14-11.06,4.91-14.96,4.44-3.63,9.46-4.42,14.7-2.06,5.33,2.4,8.05,6.74,8.28,12.6.05,1.43,0,2.86,0,4.41Z"/>
+  <path class="cls-2" d="m14.03,80.51c-5.9,0-10.66-4.77-10.65-10.66,0-5.88,4.79-10.65,10.68-10.63,5.89.01,10.67,4.8,10.66,10.67,0,5.88-4.79,10.63-10.69,10.62Z"/>
+  <path class="cls-4" d="m86.88,80.51c-5.89.02-10.69-4.74-10.71-10.61-.01-5.87,4.78-10.67,10.65-10.68,5.9,0,10.67,4.74,10.7,10.63.02,5.88-4.73,10.65-10.64,10.67Z"/>
+  <path class="cls-1" d="m61.55,10.64c.03,5.9-4.71,10.67-10.61,10.7-5.86.03-10.7-4.77-10.7-10.63C40.23,4.84,45.01.02,50.87,0c5.88-.02,10.66,4.73,10.68,10.64Z"/>
+</svg>
