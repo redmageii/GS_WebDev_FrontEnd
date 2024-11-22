@@ -113,3 +113,21 @@ span {
     height:350px;
     position: relative;
 }
+.intro-btn a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #00FFA0;
+    border-radius: 12px;
+    width:auto;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+}
+.intro-btn {
+    width:20%;
+    position: relative;
+    height:auto;
+    top:10px;
+}
