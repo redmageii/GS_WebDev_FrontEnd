@@ -1,4 +1,21 @@
 
+const loginButton=document.querySelector('#login-btn')
+
+
+loginButton.addEventListener('mouseover', function() {
+    loginButton.style.backgroundColor = '#00FFA0';
+    loginButton.style.color='#040720'
+    loginButton.style.transition='all 0.5s'
+}
+)
+
+loginButton.addEventListener('mouseout', function() {
+    loginButton.style.background = 'none';
+    loginButton.style.color = 'white'
+    loginButton.style.transition ='all 0.5s'
+})
+
+
 function userLogin() {
     const username=document.querySelector('#username').value;
     const password=document.querySelector('#password').value;

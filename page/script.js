@@ -15,7 +15,6 @@ buttonArray.forEach(function(elem) {
     elem.style.backgroundColor = '#00FFA0';
     elem.style.color='#040720'
     elem.style.transition='all 0.5s'
-    elem.style.textDecoration='none'
     }
 )
 elem.addEventListener('mouseout', function() {
