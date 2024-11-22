@@ -21,3 +21,10 @@ body {
     width:100vw;
     height:100vh;
 }
+
+.login-screen {
+    height:350px;
+    width:350px;
+    border-radius: 15px;
+    
+}
