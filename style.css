@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     gap:10px;
-    height:1080px;
 }
 .wrapper {
     width:100vw;
@@ -31,6 +30,7 @@ body {
     font-size:1.2em;
     font-weight:200;
     gap:20px;
+    z-index:1;
 }
 .mask {
     background-image: linear-gradient(to bottom left, #00FFA0 0%, #050825 40%, #00FFA0 100%);
@@ -83,4 +83,33 @@ body {
     font-size:0.6em;
     color:red;
     margin:-10px;
+}
+.element {
+    position: absolute;
+    height:250px;
+    opacity:42%;
+}
+.circle {
+    top:-20vh;
+    left:-8vw;
+    height:50%;
+}
+.wave {
+    height:55%;
+    bottom:0vh;
+}
+.circuit {
+    height:55%;
+    top:-4vh;
+    right:8vw;
+}
+.x {
+    height:22%;
+    left:3vw;
+}
+.arrow {
+    height:22%;
+    transform: rotate(-90deg);
+    top:-2vh;
+    left:30vw;
 }
