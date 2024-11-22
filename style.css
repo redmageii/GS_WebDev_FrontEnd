@@ -27,6 +27,9 @@ body {
     width:99.6%;
     border-radius: 15px;
     background-image: linear-gradient(to left, #0A1E23 0%, #050825 100%);
+    color:white;
+    font-size:1.2em;
+    font-weight:200;
 }
 .mask {
     background-image: linear-gradient(to bottom left, #00FFA0 0%, #050825 40%, #00FFA0 100%);
