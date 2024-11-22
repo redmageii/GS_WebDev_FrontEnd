@@ -190,3 +190,38 @@ p.about.text{
     text-align: justify;
     text-align-last:center;
 }
+.about-second {
+    color: white;
+    font-size: 2.9em;
+    font-weight: 200;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    text-align: justify;
+    z-index:1;
+}
+.about-second-part {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+}
+.second-text p{
+    font-size: 18px;
+    width:520px;
+}
+.second-text{
+    width:550px;
+}
+hr {
+    border-left: 0.1px solid #00FFA0;
+    height:400px;
+}
+
+.model, .model img{
+    height:auto;
+    width:550px;
+}
