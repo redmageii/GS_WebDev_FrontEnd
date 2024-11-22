@@ -125,10 +125,65 @@
                 </div>
             </div>
         </div>
+        <div class="contact-section" id="contact">
+            <p id="contact-title">Entre em contato.</p>
+            <div class="contact-forms">
+                <div class="form name">
+                    <input type="text" id="contact-name" placeholder="Seu nome aqui.">
+                </div>
+                <div class=" form last-name">
+                    <input type="text" id="contact-phone" placeholder="Seu número para contato aqui.">
+                </div>
+                <div class="form email">
 
-
-
+                    <input type="text" id="contact-email" placeholder="Seu endereço de e-mail aqui.">
+                </div>
+                <div class="form subject">
+                    <select name="assunto" id="contact-subject" aria-placeholder="fdasfa">
+                        <option value="">Escolha...</option>
+                        <option value="Dúvida">Dúvida</option>
+                        <option value="Orçamento">Orçamento</option>
+                        <option value="Demonstração">Demonstração</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                <div class="form message">
+                    <textarea name="contact-message" id="contact-message" placeholder="Sua mensagem aqui."></textarea>
+                </div>
+                <div class="contact-btn">
+                    <input type="button" value="Enviar" id="contact-btn" onclick="sendMessage()">
+                    <a href="#" class="home-btn">Retornar ao início</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="final-section">
+            <div class="final-section-intro">
+                <p class="final-text">Preparado para <span>transformar</span> o mundo?</p>
+                <p class="final-subtext">Interessado em nosso produto e deseja saber mais? Entre em contato conosco—estaremos felizes em ajudá-lo.</p>
+                <a href="#contact" class="final-btn" onclick="interestMessage()">Estou interessado</a>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="nav-logo"><img src="images/wattwalk-green-01.svg"></div>
+            <div class="footer-content">
+                <a  href="#about-key">Nossa solução</a>
+                <a>|</a>
+                <a  href="#second-section">Sobre</a>
+                <a>|</a>
+                <a  href="#impact-section">Impactos</a>
+                <a>|</a>
+                <a  href="#contact">Contato</a>
+                <a>|</a>
+                <a href="#simulation">Simule</a>
+            </div>
+        </div>
+        <div class="hl"></div>
+        <div class="footer-bottom">
+            <p>©2024. WattWalk®. Todos os direitos reservados.</p>
+        </div>
+    </footer>   
     <script src="script.js"></script>
 </body>
 </html>
