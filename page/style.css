@@ -225,3 +225,19 @@ hr {
     height:auto;
     width:550px;
 }
+
+.impact-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:120px;
+    white-space: nowrap;
+}
+.impact-subsection {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+}
