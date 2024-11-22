@@ -1,11 +1,20 @@
+
 function userLogin() {
-    const username=document.querySelector('#username').value
-    const password=document.querySelector('#password').value
+    const username=document.querySelector('#username').value;
+    const password=document.querySelector('#password').value;
+    const errorText=document.querySelector('#error-msg');
 
     if (username==='admin' && password==='admin') {
-        window.location.href='https://google.com'
+        errorText.textContent='';
+        window.location.href='https://google.com';
     }
     else {
-        alert('Senha ou usuário incorretos.')
+        if (username && password) {
+        errorText.textContent='Usuário ou senha incorretos.';
+        }
+        else {
+        errorText.textContent='Preencha os campos acima.';
+        }
+        }
     }
-}
+    

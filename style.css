@@ -69,7 +69,7 @@ body {
 #login-btn {
     padding:10px 20px;
     border-radius:10px;
-    border:1px solid #00FFA0;
+    border-color: #00FFA0;
     background:none;
     color:white;
     font-family: 'Open Sans', sans-serif;
@@ -77,4 +77,10 @@ body {
     font-size:0.7em;
     width:100%;
     margin:10px;
+}
+
+.error-msg {
+    font-size:0.6em;
+    color:red;
+    margin:-10px;
 }
