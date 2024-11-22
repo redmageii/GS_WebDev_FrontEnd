@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image:radial-gradient(farthest-corner at 0px 0px,#0B135D 0%,#040720 30%);
+}
+
+.wrapper, .login-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.wrapper {
+    width:100vw;
+    height:100vh;
+}
+
+.login-screen {
+    height:99.6%;
+    width:99.6%;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #0A1E23 0%, #050825 100%);
+    color:white;
+    font-size:1.2em;
+    font-weight:200;
+    gap:20px;
+    z-index:1;
+}
+.mask {
+    background-image: linear-gradient(to bottom left, #00FFA0 0%, #050825 40%, #00FFA0 100%);
+    height:350px;
+    width:350px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.8);
+}
+.input {
+    border:none;
+    border-radius:15px;
+    padding:15px 45px;
+    outline: none;
+    color:white;
+    background-color: #040720;
+}
+.username {
+    background: url(images/user-icon-01.svg) no-repeat;
+    background-position: 15px;
+    background-size: 20px;
+    background-color: #040720;
+}
+.password {
+    background: url(images/password-icon-01.svg) no-repeat;
+    background-position: 15px;
+    background-size: 18px;
+    background-color: #040720;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+#login-btn {
+    padding:10px 20px;
+    border-radius:10px;
+    border-color: #00FFA0;
+    background:none;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    font-size:0.7em;
+    width:100%;
+    margin:10px;
+}
+
+.error-msg {
+    font-size:0.6em;
+    color:red;
+    margin:-10px;
+}
+.element {
+    position: absolute;
+    height:250px;
+    opacity:42%;
+}
+.circle {
+    top:-20vh;
+    left:-8vw;
+    height:50%;
+}
+.wave {
+    height:55%;
+    bottom:0vh;
+}
+.circuit {
+    height:55%;
+    top:-4vh;
+    right:8vw;
+}
+.x {
+    height:22%;
+    left:3vw;
+}
+.arrow {
+    height:22%;
+    transform: rotate(-90deg);
+    top:-2vh;
+    left:30vw;
+}
