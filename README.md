@@ -7,11 +7,17 @@ O projeto apresenta-se como um dispositivo chamado WattWalk, capaz de converter 
 
 As tecnologias utilizadas para a realização do site foram:
 
+-HTML: para a estruturação do site;
+
+-CSS: para a estilização dos elementos de HTML;
+
+-JavaScript: para a validação de input de usuário e alteração e adição de elementos de HTML e CSS;
+
 -Figma: para a ideação e construção do layout;
 
 -Adobe Illustrator: para a elaboração de ícones, elementos visuais, composições de artes vetoriais e logotipos;  
 
--Visual Studio Code: para a construção dos códigos em HTML, css e js;
+-Visual Studio Code: para a construção dos códigos em HTML, CSS e JavaScript;
 
 Integrantes do grupo:
 
