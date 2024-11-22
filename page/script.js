@@ -1,3 +1,27 @@
+const footerButton=document.querySelector('.final-btn');
+const contactButton=document.querySelector('#contact-btn')
+const homeButton=document.querySelector('.home-btn');
+const aboutButton=document.querySelector('.intro-btn a');
+const navButton=document.querySelector('.simule-btn a');
+const simulButton=document.querySelector('#simul-btn');
+const buttonArray=[aboutButton, navButton, simulButton, homeButton, contactButton, footerButton];
+
+buttonArray.forEach(function(elem) {
+    elem.addEventListener('mouseover', function() {
+
+    elem.style.backgroundColor = '#00FFA0';
+    elem.style.color='#040720'
+    elem.style.transition='all 0.5s'
+    elem.style.textDecoration='none'
+    }
+)
+elem.addEventListener('mouseout', function() {
+    elem.style.background = 'none';
+    elem.style.color = 'white'
+    elem.style.transition ='all 0.5s'
+})
+})
+
 const resultText=document.querySelector('.result-text');
 
 function calculateSimul() {
