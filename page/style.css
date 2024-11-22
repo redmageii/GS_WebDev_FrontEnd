@@ -137,6 +137,27 @@ span {
     top:550px;
     left:78vw;
 }
+.blend-curves2 {
+    position: absolute;
+    height: 50%;
+    top:3800px;
+    left:-5vw;
+    opacity:50%;
+}
+.circle {
+    position:absolute;
+    height: 60%;
+    top:2050px;
+    left: -22vw;
+    opacity: 50%;
+}
+.arrows {
+    position:absolute;
+    height: 25%;
+    right:10vw;
+    top:3750px;
+    opacity: 50%;
+}
 .blend-elipses {
     position: absolute;
     height: 43%;
