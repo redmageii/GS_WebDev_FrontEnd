@@ -63,3 +63,7 @@ function sendMessage() {
     }
 
 }
+function interestMessage() {
+    const messageForm=document.querySelector('#contact-message');
+    messageForm.textContent='Olá, eu gostaria de saber mais sobre o WattWalk.';
+    }
