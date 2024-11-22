@@ -10,3 +10,37 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.wrap {
+    background-image:radial-gradient(farthest-corner at -400px -400px,#0B135D 0%,#040720 30%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:150px;
+}
+.topnav {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    gap:30vw;
+    height:200px;
+    align-items: center;
+}
+.topnav .left img {
+    height:75px;
+    width:auto;
+}
+.topnav .right{
+    display:flex;
+    gap:20px;
+    color:white;
+    white-space: nowrap;
+    align-items: center;
+}
+.topnav .right a {
+    text-decoration: none;
+    color:white;
+    font-weight:100;
+    font-size:1.3rem;
+}
