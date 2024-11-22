@@ -241,3 +241,26 @@ hr {
     align-items: center;
     gap:5vw;
 }
+.impact-img, .impact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.impact-img {
+    height:auto;
+    width:560px;
+}
+.impact-text{
+    width:560px;
+    height:auto;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    white-space: normal;
+    text-align: justify;
+}
+.impact-text p{
+    width:500px;
+    white-space: normal;
+    text-align: justify;
+    text-align-last:right
+}
