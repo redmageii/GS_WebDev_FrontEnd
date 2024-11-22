@@ -167,3 +167,26 @@ span {
     z-index: 1;
     gap:40px;
 }
+.about-mask >div {
+    height:auto;
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    color: white;
+}
+.about-section img {
+    height: 100px;
+    width: auto;
+}
+p.about.text{
+    font-size: 16px;
+    font-weight: 200;
+    white-space: normal;
+    width:70%;
+    height:auto;
+    text-align: justify;
+    text-align-last:center;
+}
