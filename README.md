@@ -22,3 +22,12 @@ O projeto apresenta-se como um dispositivo chamado WattWalk, capaz de converter 
 # Link para o Github Pages:
 
 https://redmageii.github.io/GS_WebDev_FrontEnd/
+
+# Instruções de uso
+
+Após a realização da clonagem, ou, alternativamente, a abertura da página inicial do projeto no Github Pages, o usuário se deparará com uma tela de login. O usuário deverá inserir as seguintes informações para ocorrer a liberação do acesso e decorrente redirecionamento à landing page: </br>
+usuário: `admin` </br>
+senha: `admin` </br>
+Inserindo os dados corretamente, o usuário poderá acessar a landing page do projeto. </br>
+
+*Todo e qualquer elemento gráfico presente no repositório é de autoria única e exclusiva do autor.
