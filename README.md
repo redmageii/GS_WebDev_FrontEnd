@@ -21,7 +21,7 @@ O projeto apresenta-se como um dispositivo chamado WattWalk, capaz de converter 
 
 # Link para o Github Pages:
 
-https://redmageii.github.io/wattwalk-global-solution/
+https://redmageii.github.io/GS_WebDev_FrontEnd/
 
 # Instruções de uso
 
